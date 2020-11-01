@@ -109,8 +109,6 @@ class header extends HTMLElement{
     </header>
     <script>
     alert('test')</script>
-   
-    
     `;
 }
 }

@@ -21,30 +21,40 @@
 .onboarding_container{
 	position: relative;
 	display: flex;
+	height: 500px;
+	justify-content: center;
 	flex-direction: row;
 	width: 1450px;
 	max-width:100%;
 	margin: 0px auto;
 }
 .text_message{
-	margin-left: ;
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	width: 500px;
+	padding-top: 100px;
 	max-width: 100%;
 	font-family: Nunito Sans;
 	color: #054A72;
-	top: 100px;
-	left: 50px;
+	height: max-content;
+	
 	
 }
 .image_icon{
 	width: max-content;
 	position: relative;	
 	float: right;
-	left: 200px;
+
 	
+}
+.onboarding-menu{
+	display: flex;
+	position: relative;
+	width: 1450px;
+	max-width: 100%;
+	height: 900px;
+	margin: 0px auto;
 }
 .text_inti{
 	margin: 0px auto;
@@ -55,11 +65,11 @@
 	max-width: 100%;
 	font-family: Nunito Sans;
 	color: #054A72;
-	top: 250px;
 	background-color: white;
 	padding: 130px;
 	border-radius: 30px;
 	box-shadow: 0px 0px 4px #929292;
+	height: max-content;
 }
 .text_inti h1{
 	text-align: center;
@@ -76,14 +86,13 @@
 .inti_image img{
 	position: relative;
 	width: 100%;
-	top: 250px;
+	
 	z-index: -1;
 }
 .sosmed_image img{
 	position: relative;
 	width: 40px;
-	top: 370px;
-	left: 480px;
+
 	float: center;
 	margin: 10px;
 	filter: gray;
@@ -92,4 +101,12 @@
 }
 .sosmed_image img:hover{
 	filter: none;
+}
+.sosmed-container{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 1450px;
+	max-width: 100%;
+	justify-content: center;
 }
