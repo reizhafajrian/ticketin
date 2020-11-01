@@ -27,14 +27,35 @@
     margin-left: 50px;
     width: 100%;
 }
-
 .sign-in-up{
     width: 100%;
+    height: max-content;
+    padding-left: 100px;
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
 }
 
-.sign-in, .sign-up{
-    margin-left: 160px;
-    margin-top: 120px;
+.form{
+    position: absolute;
+    display: flex;
+    top: 12.3%;
+    left: 100%;
+    transform: translateX(100%);
+    transition: 1s;
+   
+}
+.active{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    left: 0%;
+    transform: translateX(0%);
+    transition: 1s;
+    
+   
 }
 
 .sign-in-header h5, .sign-up-header h5{

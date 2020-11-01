@@ -5,6 +5,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+p{
+    margin: 0;
+}
 .onboarding-pesan-tiket{
     display: flex;
     flex-direction: column;

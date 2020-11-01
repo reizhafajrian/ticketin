@@ -59,6 +59,7 @@ class footer extends HTMLElement{
     }
     .follow-us div{
         display: flex;
+        flex
     }
     .copyright{
         align-items: center;
@@ -95,7 +96,7 @@ class footer extends HTMLElement{
         <div class="container-footer">
         <div class="footer-content">
             <div class="ticketin">
-                <div><img src="component/Assets/ic_footer_logo.svg" alt="footer-logo"></div>
+                <div><img src="/component/Assets/ic_footer_logo.svg" alt="footer-logo"></div>
                 <div><p>TicketIN adalah sebuah platform marketplace untuk melakukan transaksi berupa penjualan dan pembelian tiket .</p></div>
             </div>
             <div class="menu">
@@ -108,26 +109,26 @@ class footer extends HTMLElement{
             <div class="follow-us">
                 <h5>Ikuti Kami</h5>
                 <div>
-                    <img src="component/Assets/ic_instagram.svg" alt="">
+                    <img src="/component/Assets/ic_instagram.svg" alt="">
                     <p>Ticket.in</p>
                 </div>
                 <div>
-                    <img src="component/Assets/ic_youtube.svg" alt="">
+                    <img src="/component/Assets/ic_youtube.svg" alt="">
                     <p>TicketIN Official</p>
                 </div>
                 <div>
-                    <img src="component/Assets//ic_facebook.svg" alt="">
+                    <img src="/component/Assets//ic_facebook.svg" alt="">
                     <p>Ticket IN</p>
                 </div>
             </div>
             <div class="payment">
                 <h5>Payment</h5>
                 <br>
-                <img src="component/Assets/ic_payment.svg" alt="">
+                <img src="/component/Assets/ic_payment.svg" alt="">
             </div>
         </div>
         <div class="copyright">
-            <img src="component/Assets/ic_copyright.svg" alt="copyright">
+            <img src="/component/Assets/ic_copyright.svg" alt="copyright">
             <p>2020 Copyright TicketIN</p>
         </div>
     </div>
