@@ -95,20 +95,18 @@ class header extends HTMLElement{
         </style>
         <header class="header" id="header">
         <div class="container-header">
-            <img class="logo" src="/component/Assets/bg_logo_ticketin.png" alt="logo-ticketin">
+            <img class="logo" src="../component/Assets/bg_logo_ticketin.png" alt="logo-ticketin">
             <nav class="nav-header">
                 <ul class="nav-links">
-                    <li class="li-header"><a class="hover-a-header" href="/index.html">Home</a></li>
-                    <li class="li-header"><a class="hover-a-header" href="/pesantiket/index.html">Tiket</a></li>
-                    <li class="li-header"><a class="hover-a-header" href="/tentangkami/index.html">Tentang Kami</a></li>
-                    <li class="li-header"><a class="hover-a-header" href="/bantuan/bantuan.html">Bantuan</a></li>
+                    <li class="li-header"><a class="hover-a-header" href="../home/index.html">Home</a></li>
+                    <li class="li-header"><a class="hover-a-header" href="../pesantiket/index.html">Tiket</a></li>
+                    <li class="li-header"><a class="hover-a-header" href="../tentangkami/index.html">Tentang Kami</a></li>
+                    <li class="li-header"><a class="hover-a-header" href="../bantuan/bantuan.html">Bantuan</a></li>
                 </ul>
             </nav>
-            <a href="/loginregist/index.html"><button class="btn-login-header">Masuk</button></a>
+            <a href="../loginregist/index.html"><button class="btn-login-header">Masuk</button></a>
         </div>
     </header>
-    <script>
-    alert('test')</script>
     `;
 }
 }

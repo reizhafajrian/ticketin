@@ -1,10 +1,4 @@
-import "../component/footer.js"
-import "../component/header.js"
-import funHeader from "../component/funHeader.js"
-import filter from "../pesantiket/filter.js"
-funHeader();
 
-filter();
 const cardOnclickImg=document.querySelectorAll('.card img')
 const cardOnclick=document.querySelectorAll('.card')
 

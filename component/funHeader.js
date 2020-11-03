@@ -21,4 +21,4 @@ const funHeader=()=>{let last_known_scroll_position = 0;
         ticking = true;
         }
     });}
-    export default funHeader;
+    funHeader();

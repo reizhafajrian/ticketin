@@ -9,28 +9,29 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="styles_bantuan.css">
+        <link rel="stylesheet" href="styles/styles_bantuan.css">
     </head>
     <body>
-        <header-tiket></header-tiket>
+  <header-tiket></header-tiket>
         <section class="onboarding-bantuan">
             <div class="onboarding-container">
                 <div class="bg-image">
-                    <img src="bantuan/bg_onboarding.png" alt="">
+                    <img src="./assets/bg_onboarding.png" alt="">
                 </div>
                 <div class="message">
                     <h1>TicketIN</h1>
                     <p>PUSAT BANTUAN</p>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><i class="fa fa-search"></i></span>
+                        </div>
+                        <input placeholder="Apa yang Anda cari?" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
                 </div>
                 <div class="onboarding-icon">
-                    <img src="bantuan/undraw_google_docs_jf93 1.png" alt="">
+                    <img src="./assets//undraw_google_docs_jf93 1.png" alt="">
                 </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-default"><i class="fa fa-search"></i></span>
-                    </div>
-                    <input placeholder="Apa yang Anda cari?" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                </div>
+             
             </div>
         </section>
 
@@ -121,6 +122,11 @@
             </div>
         </section>
         <footer-tiket></footer-tiket>
-        <script type="module" src="bantuan.js"></script>
+        <script src="bantuan.js"></script>
+        <script src="../component/funHeader.js"></script>
+        <script src="../component/header.js"></script>
+       <script src="../component/footer.js"></script>
+    
+   
     </body>
 </html>

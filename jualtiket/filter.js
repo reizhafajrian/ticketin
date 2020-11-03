@@ -79,4 +79,4 @@ inputRight.addEventListener("touchend", (e) => {
   inputRight.classList.remove("active");
 });
 }
-export default filter;
+filter();

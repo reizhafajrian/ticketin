@@ -1,7 +1,4 @@
-import "../component/footer.js"
-import "../component/header.js"
-import funHeader from "../component/funHeader.js"
-funHeader();
+
 const form=document.querySelectorAll(".form")
 const click=document.querySelector(".no-account a")
 const clickSignUp=document.querySelector(".have-account a")
