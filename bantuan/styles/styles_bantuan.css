@@ -124,9 +124,7 @@ p{
 .bantuan-lain p{
     position: relative;
     height: 28px;
-
     left: 55px;
-
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 600;
@@ -144,4 +142,8 @@ p{
     background: #27AE60;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
+}
+
+.bantuan-lain, .bantuan-lain a{
+    margin-top: 20px;
 }

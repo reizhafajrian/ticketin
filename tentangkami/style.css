@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,15 +19,31 @@
 	width: 100%;
 	z-index: -1;
 }
+.text_message h1{
+	font-family: 'Nunito Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 900;
+    color: #054A72;
+    text-decoration: none;
+}
+.text_message h2{
+	font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #054A72;
+    text-decoration: none;
+}
+.background{
+	margin-left: 0px;
+}
 .onboarding_container{
 	position: relative;
 	display: flex;
 	height: 500px;
 	justify-content: center;
 	flex-direction: row;
-	width: 1450px;
-	max-width:100%;
 	margin: 0px auto;
+	margin-bottom: 50px;
 }
 .text_message{
 	display: flex;
@@ -61,10 +78,8 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	width: 800px;
+	width: 900px;
 	max-width: 100%;
-	font-family: Nunito Sans;
-	color: #054A72;
 	background-color: white;
 	padding: 130px;
 	border-radius: 30px;
@@ -73,6 +88,22 @@
 }
 .text_inti h1{
 	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+	color: #054A72;
+}
+.text_inti p{
+	font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+	color: #054A72;
+}
+.text_inti p span{
+	font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+	color: #054A72;
 }
 .inti_image{
 	position: absolute;
@@ -88,6 +119,9 @@
 	width: 100%;
 	
 	z-index: -1;
+}
+.sosmed_image{
+	margin-top: 100px;
 }
 .sosmed_image img{
 	position: relative;
