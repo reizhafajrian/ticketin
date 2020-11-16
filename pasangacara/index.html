@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header-tiket></header-tiket>
     <section class="pasang-tiket">
         <div class="pasang-tiket-onboard">
             <div class="background-image">
@@ -37,25 +38,70 @@
     </section>
     <section class="detail-produk">
         <div class="detail-produk-container">
-            <div class="title"><h2>Detail Produk</h2></div>
+            <div class="title"><h2>Tempat an Waktu Kegiatan Anda</h2></div>
             <div class="form">
                 <form action="">
                     <div>
+                    <label for="namaacara">Nama Acara/Kegiatan</label>
+                    <input type="text" placeholder="nama acara">
+                    </div>
+                    <div>
                     <label for="namaacara">Nama Acara</label>
                     <input type="text">
-                </div>
-                <div>
+                    </div>
+                    <div>
                     <label for="namaacara">Nama Acara</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="namaacara">Nama Acara</label>
-                    <input type="text-area">
-                </div>
+                    <textarea type="text-area" rows="4" cols="50" ></textarea> 
+                    </div>
                 </form>
             </div>
         </div>
        
     </section>
+    
+    <section class="tempat-waktu-kegiatan">
+        <div class="tempat-waktu-container">
+            <div class="title"><h2>Detail Produk</h2></div>
+            <div class="form">
+                <form action="">
+                    <div>
+                        <label for="lokasi">Lokasi</label>
+                        <input type="text" placeholder="Nama acara">
+                        </div>
+                        <div>
+                        <label for="waktumulai">Waktu Mulai</label>
+                        <input type="date">
+                        </div>
+                        <div>
+                        <label for="namaacara">Waktu Berakhir</label>
+                        <input type="date">
+                        </div>
+                </form>
+            </div>
+        </div>
+       
+    </section>
+    <section class="harga-tiket">
+        <div class="harga-tiket-container">
+            <div class="title"><h2>Harga Tiket</h2></div>
+            <div class="form">
+                <form action="">
+                    <div>
+                        <label for="harga">Rp</label>
+                        <input type="number" >
+                </form>
+            </div>
+        </div>
+       
+    </section>
+    <section class="button">
+        <button id="batal">Batal</button>
+        <button id="simpan">Simpan</button>
+    </section>
+    <footer-tiket></footer-tiket>
+    <script src="../component/header.js"></script>
+    <script src="../component/funHeader.js"></script>
+  
+   <script src="../component/footer.js"></script>
 </body>
 </html>

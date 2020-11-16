@@ -4,7 +4,7 @@ const funHeader=()=>{let last_known_scroll_position = 0;
     function doSomething(scroll_pos) {
         const header = document.getElementById('header');
         if(scroll_pos==0){
-            header.style.position = 'static'
+            header.style.position = 'relative'
         } else {
             header.style.position = 'fixed'
         }

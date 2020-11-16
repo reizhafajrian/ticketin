@@ -3,12 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-.pasang-tiket-onboard{
+
+.pasang-tiket-onboard,{
     display: flex;
     flex-direction: column;
     width: 1440px;
     max-width: 100%;
     margin: 0px auto;
+    margin-bottom: 30px;
 }
 .background-image {
     position: absolute;
@@ -18,6 +20,12 @@
     position: relative;
     width: 1440px;
 }
+.pasang-tiket-onboard{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .text{
     display: flex;
     position: relative;
@@ -26,10 +34,10 @@
 .text h1{
     width: max-content;
     font-family: Nunito Sans;
-font-style: normal;
-font-weight: 800;
-font-size: 64px;
-line-height: 50px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 50px;
 /* identical to box height, or 78% */
 
 display: flex;
@@ -57,7 +65,7 @@ align-items: center;
 color: #054A72;
 
 } 
-.add-photo,.detail-produk-container{
+.add-photo,.detail-produk-container,.tempat-waktu-container,.harga-tiket-container{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -69,6 +77,7 @@ color: #054A72;
     box-shadow: 0px 0px 5px rgba(0, 110, 172, 0.2);
     border-radius: 15px;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 .image-container{
     display: flex;
@@ -100,5 +109,66 @@ color: #393939;
 }
 form div{
     display: grid;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 0.3fr 1fr;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+form div input{
+    padding: 5px;
+    border: 1px solid #00000012;
+}
+textarea{
+    resize: none;
+}
+.harga-tiket-container >div> form > div{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    align-items: center;
+}
+
+.harga-tiket-container >div> form > div >label{
+    border: 1px solid #00000012;
+    display: flex;
+    justify-content: center;
+    background-color: #006EAC20 ;
+    align-items: center;
+}
+
+.harga-tiket-container input[type='number'] {
+        -moz-appearance:textfield;
+    }
+.harga-tiket-container  input::-webkit-outer-spin-button,
+.harga-tiket-container    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+.button button{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 110, 172, 0.2);
+    border-radius: 15px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    width: 1111px;
+    position: relative;
+    margin: 0px auto;
+    justify-content: flex-end;
+}
+.background-image{
+    top: 0;
+}
+#batal{
+    background: #EB5757;
+    margin-right: 48px;
+}
+#simpan{
+    background: #27AE60;
 }
